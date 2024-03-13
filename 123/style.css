@@ -1,0 +1,208 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  flex-direction: column;
+   font-weight: 700;
+}
+.title h1{
+  font-size: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+nav ul li img {
+  margin-left: 5px;
+}
+nav ul button {
+  height: 40px;
+  width: 160px;
+  color: white;
+  background-color: purple;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.container {
+  width: 1220px;
+  margin: 0 auto;
+}
+.LogoSide {
+  display: flex;
+  align-items: center;
+}
+.LogoSide p {
+  font-size: 22px;
+}
+.LogoSide span {
+  color: purple;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: center;
+  margin: 40px 0;
+}
+.card {
+  background-color: #f4f4f4;
+  height: 380px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 60px 30px;
+  flex-direction: column;
+}
+.card p {
+  color: #7d7d7d;
+  margin: 10px 0;
+}
+.down {
+  margin-top: 40px;
+}
+
+
+.down p {
+  color: #6b77e5;
+  font-size: 18px;
+}
+.down1{
+  margin-top: 40px;
+}
+.down1 p{
+  color: #6b77e5;
+  font-size: 18px;
+}
+.down div{
+  display: flex;
+  align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 10px;
+  height: 72px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #40DDB6;
+
+}
+.down1 div{
+  display: flex;
+  align-items: center;
+justify-content: center;
+margin: 0 auto;
+margin-top: 10px;
+  height: 72px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: #6b77e5;
+
+}
+.imageSection{
+  position: relative;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageSection img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.filter{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(64, 221, 182, 0.75);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+
+}
+
+.content{
+  position: relative;
+  z-index: 2;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.playIcon{
+  height: 60px;
+  aspect-ratio: 1;
+  background: rgba(107, 119, 229, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 50%;
+}
+.playIcon img {
+  height: 30px;
+  transform: translateX(3px);
+}
+.usersRow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px 0;
+}
+.userBlock{
+  position: relative;
+  height: 540px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 20px 30px;
+  background: #000;
+}
+.userBLock img{
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.infoBLock{
+  position: relative;
+  height: 90px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
